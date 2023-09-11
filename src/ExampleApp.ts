@@ -49,5 +49,10 @@ export class ExampleApp extends gfx.GfxApp
     {
         this.elapsedTime += deltaTime;
         this.mouth.scale = new gfx.Vector2(1, Math.abs(Math.sin(6 * this.elapsedTime)));
+
+        this.mouth.position.x += 0.01;
+        if (this.mouth.position.x > 1.5) {
+            this.mouth.position.x = -1.5;
+        }
     }
 }
