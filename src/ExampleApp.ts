@@ -48,6 +48,6 @@ export class ExampleApp extends gfx.GfxApp
     update(deltaTime: number): void 
     {
         this.elapsedTime += deltaTime;
-        this.mouth.scale = new gfx.Vector2(1, Math.abs(Math.sin(this.elapsedTime)));
+        this.mouth.scale = new gfx.Vector2(1, Math.abs(Math.sin(6 * this.elapsedTime)));
     }
 }
