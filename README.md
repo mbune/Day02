@@ -1,4 +1,9 @@
 
+## GopherGfx Key Links
+* [GopherGfx Documentation](https://illusioneering.github.io/GopherGfx/)
+* [GopherGfx Source Code](https://github.com/illusioneering/GopherGfx/tree/main)
+* [TypeScript Documentation](https://www.typescriptlang.org/docs/)
+
 
 ## To create a new GopherGfx app from a template
 * Go to the [GopherGfx-AppTemplate repository](https://github.com/CSCI-4611-Fall-2023/GopherGfx-AppTemplate/tree/main)
