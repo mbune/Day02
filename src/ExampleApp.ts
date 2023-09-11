@@ -19,7 +19,7 @@ export class ExampleApp extends gfx.GfxApp
     // --- Initialize the graphics scene ---
     createScene(): void 
     {
-        this.renderer.background = gfx.Color.PURPLE;
+        this.renderer.background = new gfx.Color(0.226, 0.450, 0.610);
     }
 
 
