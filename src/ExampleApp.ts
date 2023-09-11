@@ -54,5 +54,17 @@ export class ExampleApp extends gfx.GfxApp
         if (this.mouth.position.x > 1.5) {
             this.mouth.position.x = -1.5;
         }
+
+        /*
+        // increase background color until completely white
+        // commented out because the boxes drawn above are also white, so
+        // we cannot see them on a white background
+        if (this.renderer.background.r < 1.0) {
+            this.renderer.background.r += 0.01;
+            this.renderer.background.g += 0.01;
+            this.renderer.background.b += 0.01;
+            console.log(this.renderer.background.r);
+        }
+        */
     }
 }
