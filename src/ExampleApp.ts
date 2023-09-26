@@ -6,6 +6,7 @@ import * as gfx from 'gophergfx'
 
 export class ExampleApp extends gfx.GfxApp
 {   
+
     private pacman: gfx.Mesh2;
     private mouth: gfx.Mesh2;
     private elapsedTime: number;
@@ -16,6 +17,8 @@ export class ExampleApp extends gfx.GfxApp
     {
         // initialize the base class gfx.GfxApp
         super();
+
+        this.mouth2 = new gfx.Mesh2()
 
         this.mouth = new gfx.Mesh2();
         this.pacman = new gfx.Mesh2();
